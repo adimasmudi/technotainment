@@ -1,189 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>TECHNOTAINMENT</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-dark  ms-auto sticky-top">
-            <div class="container-fluid">
-                <img src="./image/brand.png" alt="brand">
-                <a class="navbar-brand" href="#">TECHNOTAINMENT</a>
+    <span id="home"></span>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark"
+      style="background-color: #220f34"
+    >
+      <div class="container-fluid">
+        <img src="./image/brand.png" alt="brand" />
+        <a class="navbar-brand" href="#">TECHNOTAINMENT</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item mx-3">
-                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">COMPETITION</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">ABOUT</a>
-                        </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#competition">COMPETITION</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
 
-                        <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">CONTACT US</a>
-                        </li>
-                    </ul>
-                    <button class="btn  mx-3 color" type="submit"><a class="nav-link" href="#">DAFTAR</a></button>
-                </div>
-            </div>
-        </nav>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#contact">CONTACT US</a>
+            </li>
+          </ul>
+          <a href="" class="nav-link btn mx-3 color">DAFTAR</a>
+        </div>
+      </div>
+    </nav>
     <!-- navbar end -->
     <div class="container">
+      <!-- header start -->
 
-        <!-- header start -->
-        <div class="container-fluid bg-color header-padding">
-            <div class="row align-items-center ">
-                <div class="col header-content">
-                    <p id="text">INFORMATION TECHNOLOGY CENTER</p>
-                    <h1>TECHNOTAINMENT 2022</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi mollitia tempore corrupti suscipit. Est molestias reprehenderit autem quae ducimus eligendi? Impedit sed numquam dolorem odio laboriosam molestias aperiam officia error.</p>
-                        <button class="btn  mx-3 button-header" type="submit">
-                            <a class="nav-link" href="#">About</a>
-                        </button>
-                </div>
-                <div class="col header-image">
-                    <img src="./image/pc.png" alt="gambar">
-                </div>
-            </div>
+      <div
+        class="row d-flex flex-md-row flex-column-reverse align-items-center bg-color"
+        style="margin-bottom: 100px"
+      >
+        <div class="col col-md-6 col-xs-9 col-lg-6 col-sm-9">
+          <h1>TECHNOTAINMENT 2022</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            mollitia tempore corrupti suscipit. Est molestias reprehenderit
+            autem quae ducimus eligendi? Impedit sed numquam dolorem odio
+            laboriosam molestias aperiam officia error.
+          </p>
+          <span id="competition"></span>
+          <a class="btn mx-3 btn-header nav-link w-25" href="#">About</a>
         </div>
-        <!-- header end -->
 
-        <!-- content 1 start -->
-        <div class="container-fluid content1 ">
-            <div class="box-content1-1">
-                <h1>PERLOMBAAN</h1>
-                <p>Technotainment mengadakan beberapa perlombaan diantaranya sebagai berikut :</p>
-            </div>
-            <div class="box-content1-2">
-                <div class="grid columns row-content">
-                    <div class="g-col columns-content">
-                        <img src="./image/foto.png" alt="foto">
-                        <p>makan kerupuk</p>
-                    </div>
-                    <div class="g-col columns-content">
-                        <img src="./image/foto.png" alt="foto">
-                        <p>makan kerupuk</p>
-                    </div>
-                    <div class="g-col columns-content">
-                        <img src="./image/foto.png" alt="foto">
-                        <p>makan kerupuk</p>
-                    </div>
-                </div>
-            </div>
+        <div
+          class="col col-md-6 col-xs-9 col-lg-6 col-sm-9 d-flex justify-content-center"
+        >
+          <img src="./image/pc.png" alt="gambar" width="70%" />
         </div>
-        <!-- content 1 end -->
-        <!-- content 2 start -->
-        <div class="container-fluid ">
-            <div class="row align-items-center content2">
-                <div class="col ">
-                    <h2>About</h2>
-                    <h1>TECHNOTAINMENT</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, corrupti laboriosam accusantium minima pariatur repudiandae? Itaque obcaecati voluptas dolor magni, consectetur odit accusantium saepe quisquam ducimus, tempore earum, ex hic! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa in dicta, iste maxime assumenda exercitationem similique, minima libero facere blanditiis eveniet autem sed amet beatae cum magni? Sapiente, et amet! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum necessitatibus ratione maxime tempore explicabo quae modi, consequatur maiores exercitationem dolorum neque itaque. Omnis sed eum illo placeat atque eaque ea.</p>
-                </div>
-                <div class="col content2-image">
-                    <img id="icon" src="./image/foto kiri.png" alt="kiri">
-                    <img src="./image/foto1.png" alt="foto1">
-                    <img id="icon" src="./image/foto kanan.png" alt="kanan">
-                </div>
-            </div>
-        
-        </div>
-        <!-- content 2 end -->
+      </div>
+      <!-- header end -->
 
-        <!-- sponsorship start -->
-        <div class="container-fluid sponsor">
-            <h1>Sponsorship</h1>
-            <div class="row-sponsor">
-                <div class="col-sponsor "></div>
-                <div class="col-sponsor "></div>
-                <div class="col-sponsor "></div>
-                <div class="col-sponsor "></div>
-                <div class="col-sponsor "><p>open for sponsorship</p></div>
-            </div> 
+      <!-- content 1 start -->
+      <div class="section mt-4" style="margin-bottom: 100px">
+        <div class="row">
+          <h1 class="text-light text-center">PERLOMBAAN</h1>
+          <p class="text-center text-light">
+            Technotainment mengadakan beberapa perlombaan diantaranya sebagai
+            berikut :
+          </p>
         </div>
-        <!-- sponsorship end -->
+        <div>
+          <div class="row justify-content-evenly">
+            <p>makan kerupuk</p>
+            <div
+              class="col-sm-8 col-md-3 col-lg-3 col-xs-8 mt-4 columns-content"
+            >
+              <img src="./image/foto.png" alt="foto" />
 
-        <!-- mediapartner start -->
-        <div class="container-fluid media">
-            <h1>Media Partner</h1>
-            <div class="row-media">
-                <div class="col-media"></div>
-                <div class="col-media"></div>
-                <div class="col-media"></div>
-                <div class="col-media"></div>
-                <div class="col-media"></div>
-                <div class="col-media"></div>
-                <div class="col-media"></div>
-                <div class="col-media"></div>
-                <div class="col-media"></div>
-                <div class="col-media"></div>
+              <span id="about"></span>
             </div>
-        </div>
-        <!-- mediapartner end -->
-
-        <!-- contact us start -->
-        <div class="container-fluid contact">
-            <h1>Contact Us</h1>
-            <div class="row-contact">
-                <div class="col-contact1">
-                    <img src="./image/ig.png" alt="">
-                    <div class="teks-contact">
-                        <h3>Intagram</h3>
-                        <p>@technotainment</p>
-                    </div>
-                </div>
-                <div class="col-contact2">
-                    <img src="./image/wa.png" alt="">
-                    <div class="teks-contact">
-                        <h3>whatsapp</h3>
-                        <p>+62 1234 5678</p>
-                    </div>
-                </div>
-                <div class="col-contact3">
-                    <img src="./image/mail.png" alt="">
-                    <div class="teks-contact">
-                        <h3>Email</h3>
-                        <p>itc@trunojoyo.ac.id</p>
-                    </div>
-                </div>
+            <div
+              class="col-sm-8 col-md-3 col-lg-3 col-xs-8 mt-4 columns-content"
+            >
+              <img src="./image/foto.png" alt="foto" />
+              <p>makan kerupuk</p>
             </div>
+            <div
+              class="col-sm-8 col-md-3 col-lg-3 col-xs-8 mt-4 columns-content"
+            >
+              <img src="./image/foto.png" alt="foto" />
+              <p>makan kerupuk</p>
+            </div>
+          </div>
         </div>
-        <!-- contact us end -->
+      </div>
+      <!-- content 1 end -->
+      <!-- content 2 start -->
 
+      <div class="container mt-4">
+        <div class="row align-items-center justify-content-evenly">
+          <div class="col-md-6 col-lg-6 col-sm-9 col-xs-9 content2">
+            <h2>About</h2>
+            <h1>TECHNOTAINMENT</h1>
+            <p style="font-weight: 300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              corrupti laboriosam accusantium minima pariatur repudiandae?
+              Itaque obcaecati voluptas dolor magni, consectetur odit
+              accusantium saepe quisquam ducimus, tempore earum, ex hic! Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit. Ipsa in dicta,
+              iste maxime assumenda exercitationem similique, minima libero
+              facere blanditiis eveniet autem sed amet beatae cum magni?
+              Sapiente, et amet! Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Rerum necessitatibus ratione maxime tempore
+              explicabo quae modi, consequatur maiores exercitationem dolorum
+              neque itaque. Omnis sed eum illo placeat atque eaque ea.
+            </p>
+          </div>
+          <div class="col-md-5 col-lg-5 col-xs-8 col-sm-8">
+            <img id="icon" src="./image/foto kiri.png" alt="kiri" />
+            <img src="./image/foto1.png" alt="foto1" width="70%" />
+            <img id="icon" src="./image/foto kanan.png" alt="kanan" />
+          </div>
+        </div>
+      </div>
+      <!-- content 2 end -->
+
+      <!-- sponsorship start -->
+      <div class="container-fluid" style="margin-top: 100px">
+        <h1 class="text-center font-bold text-light">Sponsorship</h1>
+        <div class="container mt-4">
+          <div class="row flex-wrap justify-content-evenly">
+            <div
+              class="col-lg-2 col-md-2 col-xs-4 col-sm-4 me-2 mx-2 mt-2 box-sponsor"
+            ></div>
+            <div
+              class="col-lg-2 col-md-2 col-xs-4 col-sm-4 me-2 mx-2 mt-2 box-sponsor"
+            ></div>
+            <div
+              class="col-lg-2 col-md-2 col-xs-4 col-sm-4 me-2 mx-2 mt-2 box-sponsor"
+            ></div>
+            <div
+              class="col-lg-2 col-md-2 col-xs-4 col-sm-4 me-2 mx-2 mt-2 box-sponsor"
+            ></div>
+            <div
+              class="col-lg-2 col-md-2 col-xs-4 col-sm-4 me-2 mx-2 mt-2 box-sponsor"
+            ></div>
+
+            <div
+              class="col-lg-2 col-md-2 col-xs-4 col-sm-4 me-2 mx-2 mt-2 box-sponsor"
+            >
+              <p>open for sponsorship</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sponsorship end -->
+
+      <!-- mediapartner start -->
+      <div class="container-fluid" style="margin-top: 100px">
+        <h1 class="text-center text-light">Media Partner</h1>
+        <div class="row flex-wrap justify-content-evenly mt-4">
+          <div
+            class="col-lg-2 col-md-3 col-sm-5 col-xs-9 box-media mx-2 me-2 mt-2"
+          ></div>
+          <div
+            class="col-lg-2 col-md-3 col-sm-5 col-xs-9 box-media mx-2 me-2 mt-2"
+          ></div>
+          <div
+            class="col-lg-2 col-md-3 col-sm-5 col-xs-9 box-media mx-2 me-2 mt-2"
+          ></div>
+          <div
+            class="col-lg-2 col-md-3 col-sm-5 col-xs-9 box-media mx-2 me-2 mt-2"
+          ></div>
+          <div
+            class="col-lg-2 col-md-3 col-sm-5 col-xs-9 box-media mx-2 me-2 mt-2"
+          ></div>
+          <div
+            class="col-lg-2 col-md-3 col-sm-5 col-xs-9 box-media mx-2 me-2 mt-2"
+          ></div>
+          <div
+            class="col-lg-2 col-md-3 col-sm-5 col-xs-9 box-media mx-2 me-2 mt-2"
+          ></div>
+          <div
+            class="col-lg-2 col-md-3 col-sm-5 col-xs-9 box-media mx-2 me-2 mt-2"
+          ></div>
+          <div
+            class="col-lg-2 col-md-3 col-sm-5 col-xs-9 box-media mx-2 me-2 mt-2"
+          ></div>
+        </div>
+      </div>
+      <!-- mediapartner end -->
+      <span id="contact"></span>
+      <!-- contact us start -->
+      <div class="container-fluid" style="margin-top: 100px">
+        <h1 class="text-center text-light">Contact Us</h1>
+        <div class="row justify-content-evenly mt-4">
+          <div
+            class="col-sm-9 col-md-4 col-lg-4 d-flex justify-content-center flex-column"
+          >
+            <img src="./image/ig.png" width="100px" style="margin: auto" />
+
+            <h3 class="text-center text-light">Intagram</h3>
+            <p class="text-center text-light">@technotainment</p>
+          </div>
+          <div
+            class="col-sm-9 col-md-4 col-lg-4 d-flex justify-content-center flex-column"
+          >
+            <img
+              src="./image/wa.png"
+              alt=""
+              width="100px"
+              style="margin: auto"
+            />
+
+            <h3 class="text-center text-light">whatsapp</h3>
+            <p class="text-center text-light">+62 1234 5678</p>
+          </div>
+          <div
+            class="col-sm-9 col-md-4 col-lg-4 d-flex justify-content-center flex-column"
+          >
+            <img
+              src="./image/mail.png"
+              alt=""
+              width="100px"
+              style="margin: auto"
+            />
+
+            <h3 class="text-center text-light">Email</h3>
+            <p class="text-center text-light">itc@trunojoyo.ac.id</p>
+          </div>
+        </div>
+      </div>
+      <!-- contact us end -->
     </div>
     <!-- footer start -->
-    <div class="footer">
-        <div class="row-footer1">
-            <div class="col-footer1">
-                <h4>Technotainment</h4>
-                <p>Information Technology Center<br>Universitas Trunojoyo</p>
-            </div>
-            <div class="col-footer2">
-                <h4>Home</h4>
-                <h4>About</h4>
-                <h4>Contact Us</h4>
-            </div>
+    <footer class="bg-secondary text-black mt-5">
+      <div class="container-fluid p-4">
+        <div class="row justify-content-evenly">
+          <div class="col-sm-3 col-md-6 col-lg-4">
+            <h5 class="text-uppercase fw-bold">Technotainment</h5>
+            <p style="font-size: 1.5vmax">
+              Information Technology Center <br />
+              Universitas Trunojoyo
+            </p>
+          </div>
+          <div
+            class="col-sm-9 col-md-6 col-lg-8 d-flex flex-row flex-wrap justify-content-evenly"
+          >
+            <h5 class="text-uppercase">Home</h5>
+
+            <h5 class="text-uppercase mb-0">About</h5>
+
+            <h5 class="text-uppercase mb-0">Contact Us</h5>
+          </div>
         </div>
-        <div class="row-footer2">
-            <hr>
-            <p>Copyright © 2022 Information Technology Center</p>
-        </div>
-    </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        Copyright © 2022 Information Technology Center
+      </div>
+      <!-- Copyright -->
+    </footer>
     <!-- footer end -->
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
